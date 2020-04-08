@@ -10,11 +10,19 @@ function frameIt() {
   })
 }
 
+function pressIt() {
+  $('#typing').on('keydown', function() {
+    alert("You've pressed 'g'")
+  })
+}
+
 $(document).ready(function(){
 
 window.getIt()
 
 window.frameIt()
+
+window.pressIt()
 
 
 // call functions here

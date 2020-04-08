@@ -13,9 +13,9 @@ function frameIt() {
 
 $(document).ready(function(){
 
-getIt()
+window.getIt()
 
-frameIt()
+window.frameIt()
 
 
 // call functions here

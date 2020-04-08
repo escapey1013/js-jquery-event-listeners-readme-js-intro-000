@@ -1,5 +1,5 @@
 
-  $('p').on("click", getIt() {
+$('p').on("click", getIt() {
     alert.("Hey!");
   })
 }
@@ -10,7 +10,7 @@ function frameIt() {
   })
 }
 
-$(window).ready(function(){
+$(document).ready(function(){
 
 getIt()
 

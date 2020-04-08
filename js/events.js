@@ -10,9 +10,9 @@ function frameIt() {
   })
 }
 
-$(document).ready(function(){
+$(window).ready(function(){
 
-window.getIt()
+getIt()
 
 window.frameIt()
 

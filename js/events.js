@@ -1,6 +1,6 @@
 
 $('p').on("click", function() {
-    alert.("Hey!");
+    alert("Hey!");
   });
 
 function frameIt() {
